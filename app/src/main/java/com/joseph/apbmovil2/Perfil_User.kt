@@ -10,6 +10,10 @@ class Perfil_User : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_perfil_user)
     }
+    fun volver(btningresar: View){
+        val ingreso = Intent(this,MainActivity::class.java)
+        startActivity(ingreso)
+    }
     fun crear_usuario(btningresar: View){
         val ingreso = Intent(this,Crear_Usuario::class.java)
         startActivity(ingreso)

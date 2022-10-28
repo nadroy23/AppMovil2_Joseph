@@ -14,4 +14,8 @@ class Crear_Usuario : AppCompatActivity() {
         val ingreso = Intent(this,Perfil_User::class.java)
         startActivity(ingreso)
     }
+    fun crear(btncrearr: View){
+        val ingreso1 = Intent(this,Perfil_User::class.java)
+        startActivity(ingreso1)
+    }
 }

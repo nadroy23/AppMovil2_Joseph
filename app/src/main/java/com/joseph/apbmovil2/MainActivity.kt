@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         editPassword = findViewById(R.id.editPassword)
 
     }
+
+
     fun ingresar(btningresar: View){
 
         if (primera!!.text.toString()=="admin"){

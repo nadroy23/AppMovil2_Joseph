@@ -14,4 +14,8 @@ class Editar_Usuarios : AppCompatActivity() {
         val ingreso = Intent(this,Administrar_Usuarios::class.java)
         startActivity(ingreso)
     }
+    fun finalizar(btningresar: View){
+        val ingreso = Intent(this,Administrar_Usuarios::class.java)
+        startActivity(ingreso)
+    }
 }

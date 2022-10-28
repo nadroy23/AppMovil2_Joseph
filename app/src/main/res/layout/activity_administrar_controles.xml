@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="ver"
     android:orientation="vertical"
     tools:context=".Administrar_Controles">
 
@@ -122,11 +123,11 @@
 
                             <RadioGroup
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent" >
+                                android:layout_height="match_parent">
 
                                 <RadioGroup
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent" >
+                                    android:layout_height="match_parent">
 
                                     <RadioButton
                                         android:id="@+id/radioButton8"
@@ -199,7 +200,7 @@
                                                     android:id="@+id/button2"
                                                     android:layout_width="159dp"
                                                     android:layout_height="wrap_content"
-                                                    android:onClick="editar"
+                                                    android:onClick="ver"
                                                     android:text="ver " />
                                             </LinearLayout>
                                         </LinearLayout>
@@ -212,5 +213,5 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-</LinearLayout >
+</LinearLayout>
 

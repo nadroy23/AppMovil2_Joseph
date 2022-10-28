@@ -14,4 +14,9 @@ class Editar_Especies : AppCompatActivity() {
         val ingreso = Intent(this,Administrar_Controles::class.java)
         startActivity(ingreso)
     }
+
+    fun editar(btningresar: View){
+        val ingreso = Intent(this,Administrar_Controles::class.java)
+        startActivity(ingreso)
+    }
 }

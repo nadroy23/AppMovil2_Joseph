@@ -14,4 +14,8 @@ class Crea_Control : AppCompatActivity() {
         val ingreso = Intent(this,Perfil_Cliente::class.java)
         startActivity(ingreso)
     }
+    fun crea(btncrea: View){
+        val ingreso = Intent(this,Perfil_Cliente::class.java)
+        startActivity(ingreso)
+    }
 }
