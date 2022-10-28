@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Administrar_Usuarios">
+    tools:context=".Administrar_Controles">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="63dp"
                         android:layout_weight="1"
-                        android:text="Administracion de usuarios" />
+                        android:text="Administracion de controles" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -132,43 +132,43 @@
                                         android:id="@+id/radioButton8"
                                         android:layout_width="match_parent"
                                         android:layout_height="35dp"
-                                        android:text="Yordan Daniel tarazona" />
+                                        android:text="Cerdos" />
 
                                     <RadioButton
                                         android:id="@+id/radioButton9"
                                         android:layout_width="match_parent"
                                         android:layout_height="35dp"
-                                        android:text="Yulieth Mayerly Vera" />
+                                        android:text="Ovinos" />
 
                                     <RadioButton
                                         android:id="@+id/radioButton10"
                                         android:layout_width="match_parent"
                                         android:layout_height="37dp"
-                                        android:text="Joseph Harley Contreras" />
+                                        android:text="Pollos criollos" />
 
                                     <RadioButton
                                         android:id="@+id/radioButton11"
                                         android:layout_width="match_parent"
                                         android:layout_height="35dp"
-                                        android:text="Alejandra Valencia Vega" />
+                                        android:text="Pollos engorde" />
 
                                     <RadioButton
                                         android:id="@+id/radioButton12"
                                         android:layout_width="match_parent"
                                         android:layout_height="37dp"
-                                        android:text="Dylan Santiago Bautista" />
+                                        android:text="Ovejas" />
 
                                     <RadioButton
                                         android:id="@+id/radioButton13"
                                         android:layout_width="match_parent"
                                         android:layout_height="33dp"
-                                        android:text="Maria Angelica Ortiz" />
+                                        android:text="Equinos" />
 
                                     <RadioButton
                                         android:id="@+id/radioButton14"
                                         android:layout_width="match_parent"
                                         android:layout_height="32dp"
-                                        android:text="Anderson Cardozo Arrieta" />
+                                        android:text="Conejos" />
 
                                     <LinearLayout
                                         android:layout_width="match_parent"
@@ -200,7 +200,7 @@
                                                     android:layout_width="159dp"
                                                     android:layout_height="wrap_content"
                                                     android:onClick="editar"
-                                                    android:text="Editar " />
+                                                    android:text="ver " />
                                             </LinearLayout>
                                         </LinearLayout>
                                     </LinearLayout>
@@ -213,3 +213,4 @@
         </LinearLayout>
     </LinearLayout>
 </LinearLayout >
+

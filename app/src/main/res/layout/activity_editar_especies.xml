@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Administrar_Usuarios">
+    tools:context=".Editar_Especies">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="63dp"
                         android:layout_weight="1"
-                        android:text="Administracion de usuarios" />
+                        android:text="Edicion de control" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -128,48 +128,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent" >
 
-                                    <RadioButton
-                                        android:id="@+id/radioButton8"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="35dp"
-                                        android:text="Yordan Daniel tarazona" />
-
-                                    <RadioButton
-                                        android:id="@+id/radioButton9"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="35dp"
-                                        android:text="Yulieth Mayerly Vera" />
-
-                                    <RadioButton
-                                        android:id="@+id/radioButton10"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="37dp"
-                                        android:text="Joseph Harley Contreras" />
-
-                                    <RadioButton
-                                        android:id="@+id/radioButton11"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="35dp"
-                                        android:text="Alejandra Valencia Vega" />
-
-                                    <RadioButton
-                                        android:id="@+id/radioButton12"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="37dp"
-                                        android:text="Dylan Santiago Bautista" />
-
-                                    <RadioButton
-                                        android:id="@+id/radioButton13"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="33dp"
-                                        android:text="Maria Angelica Ortiz" />
-
-                                    <RadioButton
-                                        android:id="@+id/radioButton14"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="32dp"
-                                        android:text="Anderson Cardozo Arrieta" />
-
                                     <LinearLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
@@ -181,26 +139,106 @@
                                             android:orientation="horizontal">
 
                                             <LinearLayout
-                                                android:layout_width="135dp"
-                                                android:layout_height="match_parent"
-                                                android:orientation="horizontal"></LinearLayout>
-
-                                            <LinearLayout
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
                                                 android:orientation="vertical">
 
+                                                <EditText
+                                                    android:id="@+id/editTextTextPersonName7"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:ems="10"
+                                                    android:inputType="textPersonName"
+                                                    android:text="" />
+
+                                                <TextView
+                                                    android:id="@+id/textView2"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Cantidad Unidades Existentes" />
+
                                                 <LinearLayout
                                                     android:layout_width="match_parent"
-                                                    android:layout_height="51dp"
-                                                    android:orientation="vertical"></LinearLayout>
+                                                    android:layout_height="12dp"
+                                                    android:orientation="horizontal"></LinearLayout>
 
-                                                <Button
-                                                    android:id="@+id/button2"
-                                                    android:layout_width="159dp"
+                                                <EditText
+                                                    android:id="@+id/editTextTextPersonName8"
+                                                    android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
-                                                    android:onClick="editar"
-                                                    android:text="Editar " />
+                                                    android:ems="10"
+                                                    android:inputType="textPersonName"
+                                                    android:text="" />
+
+                                                <TextView
+                                                    android:id="@+id/textView22"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Fecha De Creacion" />
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="11dp"
+                                                    android:orientation="horizontal"></LinearLayout>
+
+                                                <EditText
+                                                    android:id="@+id/editTextTextPersonName10"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:ems="10"
+                                                    android:inputType="textPersonName"
+                                                    android:text="" />
+
+                                                <TextView
+                                                    android:id="@+id/textView25"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Fecha Del Ingreso Del Alimento" />
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="15dp"
+                                                    android:orientation="horizontal"></LinearLayout>
+
+                                                <EditText
+                                                    android:id="@+id/editTextTextPersonName11"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:ems="10"
+                                                    android:inputType="textPersonName"
+                                                    android:text="" />
+
+                                                <TextView
+                                                    android:id="@+id/textView32"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="Descripcion y Seguimiento" />
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:orientation="horizontal">
+
+                                                    <LinearLayout
+                                                        android:layout_width="153dp"
+                                                        android:layout_height="match_parent"
+                                                        android:orientation="horizontal"></LinearLayout>
+
+                                                    <LinearLayout
+                                                        android:layout_width="142dp"
+                                                        android:layout_height="match_parent"
+                                                        android:orientation="horizontal">
+
+                                                        <Button
+                                                            android:id="@+id/button6"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_weight="1"
+                                                            android:text="Editar" />
+                                                    </LinearLayout>
+
+                                                </LinearLayout>
+
                                             </LinearLayout>
                                         </LinearLayout>
                                     </LinearLayout>
@@ -212,4 +250,6 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-</LinearLayout >
+
+
+</LinearLayout>

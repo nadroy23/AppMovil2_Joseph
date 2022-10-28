@@ -13,6 +13,27 @@
         android:theme="@style/Theme.AppMovil2"
         tools:targetApi="31">
         <activity
+            android:name=".Editar_Especies"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Administrar_Controles"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Crea_Control"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Perfil_Cliente"
             android:exported="false">
             <meta-data
