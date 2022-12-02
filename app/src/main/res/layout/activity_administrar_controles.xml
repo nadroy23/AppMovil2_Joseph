@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:onClick="ver"
     android:orientation="vertical"
+    android:background="#9ECCE1"
     tools:context=".Administrar_Controles">
 
     <LinearLayout
